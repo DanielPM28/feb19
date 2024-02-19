@@ -1,0 +1,75 @@
+.contenedor-perfil{
+  width: 100%;
+  max-width: 800px; /* Ancho máximo de la tarjeta */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s ease; /* Efecto de transición en la sombra */
+  padding-bottom: 2px;
+  gap: 20px;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Cuadrícula de columnas automáticas */
+  gap: 20px; /* Espacio entre las tarjetas */
+  padding-bottom: 20px;
+}
+.imagen-perfil {
+  height: auto;
+  width: 100%;
+}
+.contenedor-texto-perfil {
+  text-align: center;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 200;
+  line-height: 1.5rem;
+}
+.nombre-perfil {
+  font-size: 1rem;
+}
+.cargo-perfil {
+  font-size: 1rem;
+}
+.texto-perfil {
+  font-size: 1rem;
+}
+.face{
+  background-color: #130feb; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+ }
+ .youtube{
+  background-color: red; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+ .x{
+  background-color: aqua; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+ }
+
+
